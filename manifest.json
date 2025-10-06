@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YC",
+  "version": "1.0",
+  "description": "YouTube再生画面のサイドのおすすめを非表示にします。またホームへのリンク付きロゴと音声検索のボタンも非表示にします。",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["yc.css"],
+      "run_at": "document_start"
+    }
+  ]
+}

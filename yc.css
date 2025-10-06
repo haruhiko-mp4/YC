@@ -1,0 +1,6 @@
+[id="logo-icon"],/* ホームリンク付きロゴ */
+[id="secondary"],/* サイドのおすすめ */
+[aria-label="音声で検索"]/* 音声検索ボタン */
+{
+  display: none !important;
+}
